@@ -146,6 +146,4 @@ results <- bind_rows(
 
 print(results)
 write.csv(results, "kappa_concordance_results.csv", row.names = FALSE)
-
-
 #------------------------------------------------------------------------------------------------
